@@ -9,15 +9,14 @@ public class Main {
         System.out.println("Задача №1");
         int q = 0;
         while(q < 10) {
-            q = q + 1 ;
-            System.out.println(q + " " );
-
+            System.out.print( ++q + " " );
         }
+        System.out.println();
 
-        for (int w = 1; w > 10; w++){
-            w = w - 1 ;
-            System.out.println(w);
+        for (; q>0; q--){
+            System.out.print(q+ " ");
         }
+        System.out.println();
     }
 
     public static void Task2(){
